@@ -9,7 +9,8 @@ const SRC = "/img/loader-collage.jpg"; // 10 × 10 grid of album covers
 const N = 10;
 
 /**
- * Intro: the screen fills with album covers one at a time until the collage is
+ * Intro, in two steps. First an Enter screen — that click unlocks audio, so
+ * "Enter with sound" starts the soundtrack straight away. Then the screen fills with album covers one at a time until the collage is
  * complete — the counter is tied to the tiles, so it hits 100 on the last one.
  * Then the covers flip away from the centre and the hero plays.
  */
@@ -19,8 +20,9 @@ export default function Loader() {
   const count = useRef<HTMLSpanElement>(null);
   const bar = useRef<HTMLDivElement>(null);
   const [gone, setGone] = useState(false);
-  const [choice, setChoice] = useState(false); // the Enter buttons are showing
-  const tlRef = useRef<gsap.core.Timeline | null>(null);
+  const [gate, setGate] = useState(true); // the Enter screen is showing
+  const gateRef = useRef<HTMLDivElement>(null);
+  const entered = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     const html = document.documentElement;
@@ -72,9 +74,8 @@ export default function Loader() {
         },
         0,
       )
-      // the collage is complete — wait here for the visitor to choose how to enter
-      .addPause("+=0.15", () => setChoice(true))
-      .to(".ld-meta", { opacity: 0, y: -8, duration: 0.35, stagger: 0.04 })
+      // the collage is complete — a beat, then it breaks apart from the centre
+      .to(".ld-meta", { opacity: 0, y: -8, duration: 0.35, stagger: 0.04 }, "+=0.35")
       .to(
         tiles,
         {
@@ -94,19 +95,30 @@ export default function Loader() {
         sessionStorageSet("kc-seen", "1");
       });
 
-    // start once the collage image is ready (or after a short grace period)
+    // the collage plays once the visitor has entered AND the image is ready (or after a grace period)
     const img = new Image();
     img.src = SRC;
+    let ready = false;
+    let clicked = false;
     let started = false;
     const start = () => {
-      if (started) return;
+      if (started || !ready || !clicked) return;
       started = true;
       tl.play();
     };
-    tlRef.current = tl;
     const fonts = document.fonts?.ready ?? Promise.resolve();
-    Promise.all([img.decode().catch(() => {}), fonts]).then(start);
-    const fallback = setTimeout(start, 2500);
+    Promise.all([img.decode().catch(() => {}), fonts]).then(() => {
+      ready = true;
+      start();
+    });
+    const fallback = setTimeout(() => {
+      ready = true;
+      start();
+    }, 2500);
+    entered.current = () => {
+      clicked = true;
+      start();
+    };
 
     return () => {
       clearTimeout(fallback);
@@ -114,17 +126,25 @@ export default function Loader() {
     };
   }, []);
 
-  // the click itself unlocks audio, so the song can start the instant the site opens
+  // the click itself unlocks audio, so the song starts right away and plays over the collage
   const enter = (withSound: boolean) => {
-    if (!choice) return;
-    setChoice(false);
+    if (!gate) return;
     soundtrack.setMuted(!withSound);
     try {
       sessionStorage.setItem("kc-entered", "1");
     } catch {}
     if (withSound) soundtrack.play();
-    gsap.to(".ld-choice", { opacity: 0, y: 10, duration: 0.3, ease: "power2.in" });
-    tlRef.current?.play();
+    gsap.to(gateRef.current, {
+      opacity: 0,
+      scale: 1.04,
+      filter: "blur(8px)",
+      duration: 0.55,
+      ease: "power2.in",
+      onComplete: () => {
+        setGate(false);
+        entered.current?.();
+      },
+    });
   };
 
   if (gone) return null;
@@ -156,28 +176,6 @@ export default function Loader() {
           <span>Portfolio ©2026</span>
         </div>
 
-        {/* how to enter — appears once the collage is complete */}
-        <div
-          className={`ld-choice absolute inset-x-0 top-1/2 flex -translate-y-1/2 flex-col items-center gap-4 px-6 transition-all duration-700 ease-[cubic-bezier(.2,.8,.2,1)] ${
-            choice ? "visible translate-y-[-50%] opacity-100" : "invisible translate-y-[-40%] opacity-0"
-          }`}
-        >
-          <button
-            onClick={() => enter(true)}
-            data-cursor="Play"
-            autoFocus
-            className="group flex items-center gap-4 rounded-full bg-bone py-2.5 pl-3 pr-8 text-[15px] font-semibold uppercase tracking-[0.14em] text-ink shadow-[0_20px_60px_-15px_rgba(255,59,47,0.6)] transition-colors hover:bg-molten hover:text-white md:text-[17px]"
-          >
-            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-bone transition-transform duration-500 group-hover:scale-110">
-              ▶
-            </span>
-            Enter with sound
-          </button>
-          <button onClick={() => enter(false)} className="label rounded-full bg-ink/60 px-4 py-2 text-bone/80 backdrop-blur-md transition hover:text-molten">
-            Enter silently
-          </button>
-        </div>
-
         <div className="ld-meta">
           <div className="mb-3 flex items-end justify-between">
             <span className="label text-bone/80">Loading the crate</span>
@@ -190,6 +188,38 @@ export default function Loader() {
           </div>
         </div>
       </div>
+
+      {/* step 1 — the Enter screen */}
+      {gate && !motion.reduced && (
+        <div ref={gateRef} className="absolute inset-0 z-10 flex flex-col justify-between bg-ink px-[var(--gutter)] py-6">
+          <div className="label flex justify-between text-bone/70">
+            <span>Kushagra Chaudhary</span>
+            <span>Portfolio ©2026</span>
+          </div>
+
+          <div className="flex flex-col items-center gap-8 text-center">
+            <p className="font-display chrome text-[22vw] leading-[0.82] md:text-[13vw]">Kushagra</p>
+            <div className="flex flex-col items-center gap-3">
+              <button
+                onClick={() => enter(true)}
+                data-cursor="Play"
+                autoFocus
+                className="group flex items-center gap-4 rounded-full bg-bone py-2.5 pl-3 pr-8 text-[15px] font-semibold uppercase tracking-[0.14em] text-ink shadow-[0_20px_60px_-15px_rgba(255,59,47,0.6)] transition-colors hover:bg-molten hover:text-white outline-none focus-visible:ring-2 focus-visible:ring-molten/70 focus-visible:ring-offset-4 focus-visible:ring-offset-ink md:text-[17px]"
+              >
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-bone transition-transform duration-500 group-hover:scale-110">
+                  ▶
+                </span>
+                Enter with sound
+              </button>
+              <button onClick={() => enter(false)} className="label rounded-full px-4 py-2 text-bone/70 transition hover:text-molten">
+                Enter silently
+              </button>
+            </div>
+          </div>
+
+          <p className="label text-center text-bone/45">🎧 Best with headphones</p>
+        </div>
+      )}
     </div>
   );
 }
