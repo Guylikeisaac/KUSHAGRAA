@@ -1,0 +1,1216 @@
+[
+  {
+    "slug": "i-am-music",
+    "title": "MUSIC",
+    "artist": "Playboi Carti",
+    "year": "2025",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/24/10/03241047-f22d-7e64-3932-6df7550acc42/25UMGIM46212.rgb.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/music/1802175271?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "POP OUT",
+        "artist": "Playboi Carti",
+        "ms": 161738,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/a4/67/66a467e4-e46e-b21b-87bc-4d6bada506e4/mzaf_871474051301052696.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "CRUSH",
+        "artist": "Playboi Carti & Travis Scott",
+        "ms": 173320,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/06/f8/9c06f811-50b0-bf3f-ba6d-8b5d8b5b2f99/mzaf_1214060294338899344.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "K POP",
+        "artist": "Playboi Carti",
+        "ms": 112993,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/63/de/bd63de16-326a-10d5-751a-fb268ffc033e/mzaf_8171866780409668555.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "EVIL J0RDAN",
+        "artist": "Playboi Carti",
+        "ms": 183929,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/31/d3/3531d311-6bd7-7b95-92ef-dbffb5826d74/mzaf_7653803133411219956.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "MOJO JOJO",
+        "artist": "Playboi Carti",
+        "ms": 156293,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/9a/c2/3e9ac241-3151-8ff3-6a45-1534a51ab408/mzaf_1231932586432409347.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "PHILLY",
+        "artist": "Playboi Carti & Travis Scott",
+        "ms": 185707,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/29/25/9b292527-7945-29c7-9462-cf51d17438cb/mzaf_16244716736174903899.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "RADAR",
+        "artist": "Playboi Carti",
+        "ms": 107933,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/33/55/99335598-8aca-36ef-bbb3-0b52097d04c3/mzaf_9970255314159051268.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "RATHER LIE",
+        "artist": "Playboi Carti & The Weeknd",
+        "ms": 209680,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/8c/52/888c5239-9425-f6df-9d34-42a60c36cd66/mzaf_5528337291635861133.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "FINE SHIT",
+        "artist": "Playboi Carti",
+        "ms": 106753,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/60/56/2260566a-3c5b-f75b-fc4b-aede83ae3a73/mzaf_16336305301455952603.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "BACKD00R (feat. Kendrick Lamar & Jhené Aiko)",
+        "artist": "Playboi Carti",
+        "ms": 190053,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/6d/9b/fb6d9bbd-903c-a632-6e96-7f1daa7de356/mzaf_11378626519599917523.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "TOXIC",
+        "artist": "Playboi Carti & Skepta",
+        "ms": 135275,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/24/02/162402cc-5592-3d64-e99e-a1972ce914ba/mzaf_3075958760419951192.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "MUNYUN",
+        "artist": "Playboi Carti",
+        "ms": 154285,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/59/01/485901c2-8649-84f1-94a3-758bde282885/mzaf_10358587481186746802.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "CRANK",
+        "artist": "Playboi Carti",
+        "ms": 147692,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/4d/ca/c74dca90-4c34-e08a-7fd2-28a51e0568da/mzaf_11060114453359090430.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "CHARGE DEM HOES A FEE",
+        "artist": "Playboi Carti, Future & Travis Scott",
+        "ms": 225000,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/2b/f3/d32bf35e-1350-e323-65e6-fea40e86b82b/mzaf_11725747181033891389.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "GOOD CREDIT",
+        "artist": "Playboi Carti & Kendrick Lamar",
+        "ms": 190373,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/5b/8d/d35b8dea-e73c-3975-50d0-e093a741f823/mzaf_7336551604517987766.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "I SEEEEEE YOU BABY BOI",
+        "artist": "Playboi Carti",
+        "ms": 158896,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/bd/81/3fbd8169-a821-31ed-829d-95fe62f07ae2/mzaf_13219527226225364439.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "WAKE UP F1LTHY",
+        "artist": "Playboi Carti & Travis Scott",
+        "ms": 169333,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/14/aa/6614aafa-5911-60d1-a01e-63e2f079d5dc/mzaf_11092222609236615866.plus.aac.p.m4a"
+      },
+      {
+        "n": 18,
+        "name": "JUMPIN",
+        "artist": "Playboi Carti & Lil Uzi Vert",
+        "ms": 92735,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8a/97/d1/8a97d149-2e64-27c3-023e-6752206e1c1b/mzaf_10859395941777116592.plus.aac.p.m4a"
+      },
+      {
+        "n": 19,
+        "name": "TRIM",
+        "artist": "Playboi Carti & Future",
+        "ms": 193547,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/26/e4/a326e434-5b5d-947b-1990-edcc18eede18/mzaf_16725624526107001741.plus.aac.p.m4a"
+      },
+      {
+        "n": 20,
+        "name": "COCAINE NOSE",
+        "artist": "Playboi Carti",
+        "ms": 151160,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/3c/ca/e33cca18-4dbe-6b2a-027c-65a8cbfefcb9/mzaf_11477520385507001258.plus.aac.p.m4a"
+      },
+      {
+        "n": 21,
+        "name": "WE NEED ALL DA VIBES",
+        "artist": "Playboi Carti, Young Thug & Ty Dolla $ign",
+        "ms": 181627,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/b8/6a/6db86ab2-ea39-3f2e-586c-b3d8abd0984f/mzaf_9953720464213022985.plus.aac.p.m4a"
+      },
+      {
+        "n": 22,
+        "name": "OLYMPIAN",
+        "artist": "Playboi Carti",
+        "ms": 174733,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/12/c1/9712c1ca-9ea5-12a5-ad9d-2c8f60d09e06/mzaf_9073374440497811703.plus.aac.p.m4a"
+      },
+      {
+        "n": 23,
+        "name": "OPM BABI",
+        "artist": "Playboi Carti",
+        "ms": 173077,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/70/0c/92700c94-b3df-c10a-49e8-b2d0b849dcf9/mzaf_16180023417366643572.plus.aac.p.m4a"
+      },
+      {
+        "n": 24,
+        "name": "TWIN TRIM",
+        "artist": "Playboi Carti & Lil Uzi Vert",
+        "ms": 94825,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/01/6a/bf016a42-80a0-5082-c9da-01e4c5600da7/mzaf_13559449857620132096.plus.aac.p.m4a"
+      },
+      {
+        "n": 25,
+        "name": "LIKE WEEZY",
+        "artist": "Playboi Carti",
+        "ms": 115600,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/42/17/9542172c-4872-1a97-8562-89e47fcf466e/mzaf_5046798934264946600.plus.aac.p.m4a"
+      },
+      {
+        "n": 26,
+        "name": "DIS 1 GOT IT",
+        "artist": "Playboi Carti",
+        "ms": 123871,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/2e/c4/802ec4a6-ebc9-23c6-d8f1-4472229477c4/mzaf_13882866149080065565.plus.aac.p.m4a"
+      },
+      {
+        "n": 27,
+        "name": "WALK",
+        "artist": "Playboi Carti",
+        "ms": 94412,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/05/38/94053805-0b3b-137f-311e-026583d799f6/mzaf_12018450918539069424.plus.aac.p.m4a"
+      },
+      {
+        "n": 28,
+        "name": "HBA",
+        "artist": "Playboi Carti",
+        "ms": 212598,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/3c/3a/5a3c3a98-2be1-3019-364a-6c23047623c2/mzaf_14753693180304433386.plus.aac.p.m4a"
+      },
+      {
+        "n": 29,
+        "name": "OVERLY",
+        "artist": "Playboi Carti",
+        "ms": 105903,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/d5/47/c3d5476d-79ef-98b1-31fa-e380a1c0a20a/mzaf_3720232811794450401.plus.aac.p.m4a"
+      },
+      {
+        "n": 30,
+        "name": "SOUTH ATLANTA BABY",
+        "artist": "Playboi Carti",
+        "ms": 133259,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/e6/a1/f6e6a131-953f-42b4-2789-c29f61533dff/mzaf_5819606191753714449.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "blonde",
+    "title": "Blonde",
+    "artist": "Frank Ocean",
+    "year": "2016",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/blonde/1146195596?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "Nikes",
+        "artist": "Frank Ocean",
+        "ms": 314075,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/f7/ca/bff7ca18-3394-dc65-563e-d5f71c3f2a89/mzaf_13717584090404043503.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Ivy",
+        "artist": "Frank Ocean",
+        "ms": 249191,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/73/d7/1673d707-48e2-01fc-95de-1167d0e56b0a/mzaf_16050809593139320086.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "Pink + White",
+        "artist": "Frank Ocean",
+        "ms": 184516,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/11/dc/ba11dccd-16d2-9cd8-13f0-85b73acc0a09/mzaf_1304250511099243436.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "Be Yourself",
+        "artist": "Frank Ocean",
+        "ms": 86944,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/ca/32/27ca32db-23d1-bff5-e617-6ea26853566f/mzaf_12580550754890360869.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Solo",
+        "artist": "Frank Ocean",
+        "ms": 257380,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/82/3d/c7823d02-39e1-1d28-4e1d-9e035684a32e/mzaf_4118265048032857214.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "Skyline To",
+        "artist": "Frank Ocean",
+        "ms": 184600,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/2e/95/dd2e959e-0960-9f96-db6f-979267b0cd39/mzaf_1296975182138290723.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "Self Control",
+        "artist": "Frank Ocean",
+        "ms": 249668,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/d5/18/67d5185e-37e4-3e36-d345-0e8075de0407/mzaf_12338821043527808523.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "Good Guy",
+        "artist": "Frank Ocean",
+        "ms": 66786,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/d4/24/49d424d4-497a-91b1-1eeb-21297b388039/mzaf_2809852115452507548.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "Nights",
+        "artist": "Frank Ocean",
+        "ms": 307151,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/8c/70/a68c700b-0c96-2eff-79a7-b4c3607a4a0f/mzaf_6282991914472119670.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "Solo (Reprise)",
+        "artist": "Frank Ocean",
+        "ms": 78743,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/0f/6c/270f6cab-c720-738b-1986-37466299a6ef/mzaf_15781133493801558452.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Pretty Sweet",
+        "artist": "Frank Ocean",
+        "ms": 158478,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/ea/fe/00eafebf-779d-78a5-19db-378bc4c7cae8/mzaf_12437179479734547591.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "Facebook Story",
+        "artist": "Frank Ocean",
+        "ms": 68588,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/e4/e2/4de4e21f-3a83-8dd0-e952-0f6b5ba5db44/mzaf_13158743490350012917.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "Close to You",
+        "artist": "Frank Ocean",
+        "ms": 85754,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/22/17/ba221715-0e38-d197-72b4-a1e04fe2b8ce/mzaf_15048558747116558769.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "White Ferrari",
+        "artist": "Frank Ocean",
+        "ms": 248808,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/94/4d/b6944d5f-b66c-ef53-6fd5-8f0aaa92846c/mzaf_16355860049074950110.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "Seigfried",
+        "artist": "Frank Ocean",
+        "ms": 334570,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/b8/f1/0fb8f187-840c-658e-5941-0adb0b372200/mzaf_14720449909523055987.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "Godspeed",
+        "artist": "Frank Ocean",
+        "ms": 177922,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/39/65/1239657a-e24a-7445-1182-08e794600062/mzaf_7593396232276030207.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "Futura Free",
+        "artist": "Frank Ocean",
+        "ms": 564166,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/7b/53/8d7b53ed-1a6c-d87d-459a-f51854bd1500/mzaf_2220082779574598131.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "certified-lover-boy",
+    "title": "Certified Lover Boy",
+    "artist": "Drake",
+    "year": "2021",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/certified-lover-boy/1584281467?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "Champagne Poetry",
+        "artist": "Drake",
+        "ms": 336511,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/07/43/b5074375-47cd-480b-443f-986191c1735f/mzaf_10335396099672496444.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Papi’s Home",
+        "artist": "Drake",
+        "ms": 178623,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/44/b3/9544b3b8-cfe8-962d-1768-3d79332c0a10/mzaf_7657762540805523642.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "Girls Want Girls (feat. Lil Baby)",
+        "artist": "Drake",
+        "ms": 221980,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/c0/a4/11c0a412-3a2f-b88f-49f0-6c99c65c82a1/mzaf_12383184488736412996.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "In The Bible (feat. Lil Durk & GIVĒON)",
+        "artist": "Drake",
+        "ms": 296569,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/d3/f9/dfd3f9b5-d35a-efea-64fc-d07b5a11d0ca/mzaf_18238922996446197747.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Love All (feat. JAŸ-Z)",
+        "artist": "Drake",
+        "ms": 228461,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/f7/65/88f7655d-30b6-93e0-5305-d67f6d171570/mzaf_307907427967802955.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "Fair Trade (feat. Travis Scott)",
+        "artist": "Drake",
+        "ms": 291175,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/73/99/b773993b-6558-845c-d07d-ca512d9ba2b9/mzaf_1260365158707282945.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "Way 2 Sexy (feat. Future & Young Thug)",
+        "artist": "Drake",
+        "ms": 257605,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/39/81/33398169-2945-2f05-16f3-0938f9567bc3/mzaf_16119717744792362196.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "TSU",
+        "artist": "Drake",
+        "ms": 308756,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/8c/43/a38c43a5-f619-08b8-61c0-a9c57783e19c/mzaf_1938090074487937339.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "N 2 Deep (feat. Future)",
+        "artist": "Drake",
+        "ms": 273578,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/63/9a/6b639a8f-e0fa-9e6f-f1b2-94c9819303b2/mzaf_8868711921080731707.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "Pipe Down",
+        "artist": "Drake",
+        "ms": 205721,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/48/de/2248debf-508e-14bd-3bcd-a68b1696c40c/mzaf_2710853402543598906.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Yebba’s Heartbreak",
+        "artist": "Drake & Yebba",
+        "ms": 133763,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/50/73/5a507306-3cec-4369-f5d7-921fb4844fe8/mzaf_10936798375056573741.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "No Friends In The Industry",
+        "artist": "Drake",
+        "ms": 204347,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/19/46/33194633-d780-aaa4-b529-2464d5d3feda/mzaf_12270645651558063320.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "Knife Talk (feat. 21 Savage & Project Pat)",
+        "artist": "Drake",
+        "ms": 242966,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/ce/b6/42ceb62a-3be2-c339-3cfd-776e69dcc65e/mzaf_6648789242742053507.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "7am On Bridle Path",
+        "artist": "Drake",
+        "ms": 239635,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/0d/a2/5f0da28d-a7f0-c931-01c0-ef5f465d75cd/mzaf_4148948057367943268.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "Race My Mind",
+        "artist": "Drake",
+        "ms": 269884,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/d2/11/9bd21172-9326-d46e-8db2-723f1836349a/mzaf_8312942223828334546.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "Fountains (feat. Tems)",
+        "artist": "Drake",
+        "ms": 192418,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/17/29/96172972-ecf5-d1a4-4062-071124234904/mzaf_17884617460432758598.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "Get Along Better (feat. Ty Dolla $ign)",
+        "artist": "Drake",
+        "ms": 229304,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/2c/fe/f22cfeaf-7d60-afe9-805b-6ac015469776/mzaf_16891483338181768216.plus.aac.p.m4a"
+      },
+      {
+        "n": 18,
+        "name": "You Only Live Twice (feat. Lil Wayne & Rick Ross)",
+        "artist": "Drake",
+        "ms": 213104,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/f7/d3/45f7d311-898b-df57-9040-0f1cae6c2cf6/mzaf_4754826032493345272.plus.aac.p.m4a"
+      },
+      {
+        "n": 19,
+        "name": "IMY2 (feat. Kid Cudi)",
+        "artist": "Drake",
+        "ms": 252379,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/fc/2c/29fc2c94-89d6-eb77-df4e-9205e1f72467/mzaf_14292980267272232927.plus.aac.p.m4a"
+      },
+      {
+        "n": 20,
+        "name": "F*****g Fans",
+        "artist": "Drake",
+        "ms": 245131,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/bb/55/b1bb55f3-f4ef-4a18-d8a5-91ed03c0099e/mzaf_2828462526477116004.plus.aac.p.m4a"
+      },
+      {
+        "n": 21,
+        "name": "The Remorse",
+        "artist": "Drake",
+        "ms": 351220,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/29/89/3e298927-b246-e9d6-5fe6-cec1d1c76fe7/mzaf_3787978066718938713.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "astroworld",
+    "title": "ASTROWORLD",
+    "artist": "Travis Scott",
+    "year": "2018",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/astroworld/1421241217?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "STARGAZING",
+        "artist": "Travis Scott",
+        "ms": 270715,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/a3/6f/80a36f60-f026-2954-4620-725816528f39/mzaf_14366219948706406616.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "CAROUSEL",
+        "artist": "Travis Scott",
+        "ms": 180183,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/95/5f/16955fcb-5d60-7ada-7dcb-7f51f186a68a/mzaf_1633906869934784224.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "SICKO MODE",
+        "artist": "Travis Scott",
+        "ms": 312820,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/2f/01/d62f0112-0864-40e3-473d-0918d82dde3f/mzaf_9628524103484106734.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "R.I.P. SCREW",
+        "artist": "Travis Scott",
+        "ms": 185610,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/58/f0/4658f056-cf62-f4b3-b773-60773d7b14c3/mzaf_14066222927198426244.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "STOP TRYING TO BE GOD",
+        "artist": "Travis Scott",
+        "ms": 338438,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/98/53/8c985349-7d49-62d4-4b79-2b4624b3b2f9/mzaf_1504320505533883591.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "NO BYSTANDERS",
+        "artist": "Travis Scott",
+        "ms": 218283,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/80/c2/0b80c283-f4ca-8c48-5233-c9c21f38b418/mzaf_2882719911110924207.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "SKELETONS",
+        "artist": "Travis Scott",
+        "ms": 145588,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/a7/09/2ca70900-b541-8506-6769-d394b59faa04/mzaf_13208547012165700461.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "WAKE UP",
+        "artist": "Travis Scott",
+        "ms": 231964,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/11/68/6d1168f2-6f3a-8bb0-5b62-2eed24610231/mzaf_13463306424050220955.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "5% TINT",
+        "artist": "Travis Scott",
+        "ms": 196138,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/6a/07/426a07ac-f9aa-96c6-7721-47b3b337c825/mzaf_9399242372975875616.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "NC-17",
+        "artist": "Travis Scott",
+        "ms": 156886,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/a4/5b/16a45b75-909a-2c8b-d85b-6cd35c39f812/mzaf_6320646436656337786.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "ASTROTHUNDER",
+        "artist": "Travis Scott",
+        "ms": 142969,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/cc/1e/7acc1e72-e860-275b-86b3-ae67f9bddbf5/mzaf_14917708800466928149.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "YOSEMITE",
+        "artist": "Travis Scott",
+        "ms": 150043,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/01/e4/9c01e4d1-08eb-2988-717b-89216a6491f9/mzaf_1401007185924005358.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "CAN'T SAY",
+        "artist": "Travis Scott",
+        "ms": 198408,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/f9/1b/00f91b85-136d-8edb-f933-4f9c59b85ef3/mzaf_12222878040756828717.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "WHO? WHAT!",
+        "artist": "Travis Scott",
+        "ms": 176720,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/86/b3/d886b336-642e-90cb-6fa9-c0e7af6a6473/mzaf_13694608518323455504.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "BUTTERFLY EFFECT",
+        "artist": "Travis Scott",
+        "ms": 190557,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/c7/32/46c7320a-5a79-5edd-a447-4be6246dfa76/mzaf_15930848296096645653.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "HOUSTONFORNICATION",
+        "artist": "Travis Scott",
+        "ms": 217828,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/1c/b5/451cb5b3-4a27-bfea-fceb-d7ff6d5aabb7/mzaf_12482265229522682501.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "COFFEE BEAN",
+        "artist": "Travis Scott",
+        "ms": 209116,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/47/22/ec4722b1-df2c-824e-940f-fe8c6d2986ca/mzaf_9021402842852772654.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "pink-tape",
+    "title": "Pink Tape",
+    "artist": "Lil Uzi Vert",
+    "year": "2023",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/a3/34/29a3341f-2cd6-9661-f8f7-e154478b8491/075679677983.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/pink-tape/1694343104?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "Flooded The Face",
+        "artist": "Lil Uzi Vert",
+        "ms": 192727,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/df/54/47df54fd-8556-7f4e-62a1-e42f29d618b6/mzaf_2849871428967880738.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Suicide Doors",
+        "artist": "Lil Uzi Vert",
+        "ms": 259080,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/85/b2/1285b2a1-393b-7d41-470b-410c8f8bb738/mzaf_5474402635438776444.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "Aye (feat. Travis Scott)",
+        "artist": "Lil Uzi Vert",
+        "ms": 207836,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/12/8f/35128fcd-e2da-0ad6-6aea-49f3827d6e0d/mzaf_2658533066355439057.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "Crush Em",
+        "artist": "Lil Uzi Vert",
+        "ms": 165589,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/e7/21/a4e72127-7b2c-c0d2-c62a-3a8ef89afb7b/mzaf_14016466912679141912.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Amped",
+        "artist": "Lil Uzi Vert",
+        "ms": 173061,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/27/0e/48270e8c-dc4f-a3cd-f667-4923f1d18bb8/mzaf_4473469179799306138.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "x2",
+        "artist": "Lil Uzi Vert",
+        "ms": 234324,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/31/a8/e631a86e-a400-e0cf-407b-42caad7af599/mzaf_7105910469420069694.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "Died and Came Back",
+        "artist": "Lil Uzi Vert",
+        "ms": 180636,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/55/c0/dd55c08d-9da9-8129-a2f0-93d63ee3ff89/mzaf_5059334177236902505.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "Spin Again",
+        "artist": "Lil Uzi Vert",
+        "ms": 97770,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/12/b0/6612b069-ed2a-3307-95c8-cacc211a437e/mzaf_630341234410107497.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "That Fiya",
+        "artist": "Lil Uzi Vert",
+        "ms": 154832,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/c2/79/f6c279c8-dacd-b883-f692-1b357917d566/mzaf_4298544483705339618.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "I Gotta",
+        "artist": "Lil Uzi Vert",
+        "ms": 173025,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/1c/00/521c00b6-97c2-625f-e013-01f904fc6343/mzaf_15368409752183956840.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Endless Fashion (feat. Nicki Minaj)",
+        "artist": "Lil Uzi Vert",
+        "ms": 216704,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/a1/33/e0a13328-06e5-e4ff-0d16-b201798a41a8/mzaf_13074156535223702379.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "Mama, I’m Sorry",
+        "artist": "Lil Uzi Vert",
+        "ms": 210961,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/fd/e1/ccfde121-0fe9-a97b-a460-1ee6543abe77/mzaf_16090998679713081832.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "All Alone",
+        "artist": "Lil Uzi Vert",
+        "ms": 222618,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/75/ca/be75ca6d-3c70-9640-430c-f46905aee300/mzaf_13282717348398519740.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "Nakamura",
+        "artist": "Lil Uzi Vert",
+        "ms": 197901,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/21/04/0221040c-868b-65e9-7034-f0b25ac88e46/mzaf_1956985355920341224.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "Just Wanna Rock",
+        "artist": "Lil Uzi Vert",
+        "ms": 123891,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/43/4b/e4434b75-2932-d8b4-5872-8b42222fac48/mzaf_18438314212210405854.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "Fire Alarm",
+        "artist": "Lil Uzi Vert",
+        "ms": 185168,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/6e/42/866e42d5-4448-c217-38ca-07d10a032c4d/mzaf_12803103845894143614.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "CS",
+        "artist": "Lil Uzi Vert",
+        "ms": 212041,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/ef/df/13efdf6e-1589-b555-ce14-89d21a2052c3/mzaf_17252604275560180020.plus.aac.p.m4a"
+      },
+      {
+        "n": 18,
+        "name": "Werewolf (feat. Bring Me The Horizon)",
+        "artist": "Lil Uzi Vert",
+        "ms": 239864,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/70/5d/f9705dab-028d-073c-edc7-e88c0ce3f625/mzaf_8889217411583941611.plus.aac.p.m4a"
+      },
+      {
+        "n": 19,
+        "name": "Pluto to Mars",
+        "artist": "Lil Uzi Vert",
+        "ms": 246497,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/31/43/3c314304-6830-7705-16d6-dabe3faa0314/mzaf_10394337729558920684.plus.aac.p.m4a"
+      },
+      {
+        "n": 20,
+        "name": "Patience (feat. Don Toliver)",
+        "artist": "Lil Uzi Vert",
+        "ms": 262430,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/5b/7f/075b7fc8-69c0-a575-fc24-637ebb237fb4/mzaf_2187872956807590788.plus.aac.p.m4a"
+      },
+      {
+        "n": 21,
+        "name": "Days Come and Go",
+        "artist": "Lil Uzi Vert",
+        "ms": 257673,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/5d/01/0c5d016d-881f-c855-3f85-5641f274efd7/mzaf_16750108701835477268.plus.aac.p.m4a"
+      },
+      {
+        "n": 22,
+        "name": "Rehab",
+        "artist": "Lil Uzi Vert",
+        "ms": 245070,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/0d/73/ea0d73f6-16fe-93db-d3ae-5c3cf1346fea/mzaf_15070560854248517580.plus.aac.p.m4a"
+      },
+      {
+        "n": 23,
+        "name": "The End (feat. BABYMETAL)",
+        "artist": "Lil Uzi Vert",
+        "ms": 187244,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/99/e1/8e99e1a9-2a4c-d519-e1ea-e46b24eb11c3/mzaf_12707783908423693850.plus.aac.p.m4a"
+      },
+      {
+        "n": 24,
+        "name": "Zoom (Bonus Track)",
+        "artist": "Lil Uzi Vert",
+        "ms": 166013,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/56/6d/1e566d18-128a-9598-056d-5322a1784f87/mzaf_1681514853406272666.plus.aac.p.m4a"
+      },
+      {
+        "n": 25,
+        "name": "Of Course (Bonus Track)",
+        "artist": "Lil Uzi Vert",
+        "ms": 208966,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/f4/18/eef418fc-2278-5961-73ae-21b31202bd1a/mzaf_2600664190633803277.plus.aac.p.m4a"
+      },
+      {
+        "n": 26,
+        "name": "Shardai (Bonus Track)",
+        "artist": "Lil Uzi Vert",
+        "ms": 201345,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/08/49/f10849db-6991-8d59-41f5-a63238c74d5f/mzaf_13355799434501896177.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "long-live-asap",
+    "title": "LONG.LIVE.A$AP",
+    "artist": "A$AP Rocky",
+    "year": "2013",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/50/b3/9d/50b39db3-0922-2863-37aa-37b9a47f7ad7/886443325524.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/long-live-a%24ap/581997129?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "Long Live a$AP",
+        "artist": "A$AP Rocky",
+        "ms": 289587,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ef/b0/eb/efb0eb4f-16bf-3f57-da43-8f9b17f53eea/mzaf_13938428156050725380.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Goldie",
+        "artist": "A$AP Rocky",
+        "ms": 192067,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2d/c4/cc/2dc4cc48-f97f-9121-a723-d01dfeaf0de2/mzaf_13132953962430725315.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "PMW (All I Really Need) [feat. Schoolboy Q]",
+        "artist": "A$AP Rocky",
+        "ms": 234773,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/1d/5b/7b1d5bfa-9b12-7a1f-6cea-1bb6bfbc7104/mzaf_2298327185005002662.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "Lvl",
+        "artist": "A$AP Rocky",
+        "ms": 220133,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e1/ef/2e/e1ef2e02-5fd4-1fcc-f38b-2c318d48c63c/mzaf_14041393516190738279.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Hell (feat. Santigold)",
+        "artist": "A$AP Rocky",
+        "ms": 231787,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/d4/6e/dad46ec5-3bfc-69a5-1c87-69f48fbfb7dc/mzaf_4326346099117430948.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "Pain (feat. Overdoz)",
+        "artist": "A$AP Rocky",
+        "ms": 233267,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/99/3d/50993d6e-d9e7-b5e4-4b3a-52c59bb022f5/mzaf_17021868320685356507.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "F**kin' Problems (feat. Drake, 2 Chainz & Kendrick Lamar)",
+        "artist": "A$AP Rocky",
+        "ms": 233787,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a4/f3/ae/a4f3ae59-7a9a-2dc4-663b-a5218f169c59/mzaf_7727692306135666936.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "Wild For the Night (feat. Skrillex & Birdy Nam Nam)",
+        "artist": "A$AP Rocky",
+        "ms": 212640,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/8f/19/908f19af-6a26-4c6a-40b2-4c7f0601fd4f/mzaf_9282426617213472648.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "1Train (feat. Kendrick Lamar, Joey Bada$$, Yelawolf, Danny Brown, Action Bronson & Big K.R.I.T.)",
+        "artist": "A$AP Rocky",
+        "ms": 372173,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bc/90/e4/bc90e400-2481-d378-1686-303aa986e0c9/mzaf_8291354703194216577.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "Fashion Killa",
+        "artist": "A$AP Rocky",
+        "ms": 236280,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/ec/a5/6feca504-f658-0d6d-2348-45db375c452c/mzaf_4082364495616841136.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Phoenix",
+        "artist": "A$AP Rocky",
+        "ms": 233880,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/56/42/ea5642b3-e8c2-c615-96ee-e63542baaf9a/mzaf_9808211599871012263.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "Suddenly",
+        "artist": "A$AP Rocky",
+        "ms": 270707,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/34/31/b6343188-b3fb-c14b-f1f3-05e91c82a4c1/mzaf_10373986769193157218.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "hurry-up-tomorrow",
+    "title": "Hurry Up Tomorrow",
+    "artist": "The Weeknd",
+    "year": "2025",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/9b/6e/499b6e2d-648f-1a4e-31b8-fb7f06a8123c/25UMGIM09490.rgb.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/hurry-up-tomorrow/1793654348?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "Wake Me Up",
+        "artist": "The Weeknd & Justice",
+        "ms": 308575,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/fd/c2/a8fdc2de-05f7-68d8-5912-b02f6888f430/mzaf_4389000681867293831.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Cry For Me",
+        "artist": "The Weeknd",
+        "ms": 224137,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/25/12/a02512c3-6ecd-9d0a-5983-966fd59f9460/mzaf_8803940864628903622.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "I Can't F*****g Sing",
+        "artist": "The Weeknd",
+        "ms": 12288,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/74/fa/6774fab2-a831-91ef-9c7a-947f5a55c7c2/mzaf_6896698711687534048.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "São Paulo",
+        "artist": "The Weeknd & Anitta",
+        "ms": 301623,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/71/cf/ae71cfa5-b4ca-d1b3-0653-0b44f1cda1b4/mzaf_3194682384086323765.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Until We're Skin & Bones",
+        "artist": "The Weeknd",
+        "ms": 22034,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/86/99/d7869954-db4e-4f8a-3fa6-965637fa43f6/mzaf_15164592044002683825.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "Baptized In Fear",
+        "artist": "The Weeknd",
+        "ms": 232176,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/55/47/a2554790-550f-6596-032e-0b3798b1e568/mzaf_13705300379672259796.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "Open Hearts",
+        "artist": "The Weeknd",
+        "ms": 234924,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/4a/fb/b04afba9-3f11-6048-a4ca-dd963056aba4/mzaf_16682125676512392317.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "Opening Night",
+        "artist": "The Weeknd",
+        "ms": 96024,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/bf/a9/34bfa925-e33f-d20e-14b9-ada777ea3a05/mzaf_17602579932331720048.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "Reflections Laughing",
+        "artist": "The Weeknd, Travis Scott & Florence + the Machine",
+        "ms": 291193,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/f9/11/a8f91177-7bbf-edf1-0b88-904b746ac1f8/mzaf_7433221876130604419.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "Enjoy The Show",
+        "artist": "The Weeknd & Future",
+        "ms": 301429,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/8f/b9/0d8fb989-e50d-7287-a656-c1ecf4fd9697/mzaf_2429056533255402784.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Given Up On Me",
+        "artist": "The Weeknd",
+        "ms": 354781,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/8d/be/338dbe68-4535-55c2-01ee-5824f6c2f41b/mzaf_16780781546198057447.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "I Can't Wait To Get There",
+        "artist": "The Weeknd",
+        "ms": 188922,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/a7/d0/b8a7d07d-891b-e2ef-5190-d2e8f8e49c98/mzaf_11593244673948523205.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "Timeless",
+        "artist": "The Weeknd & Playboi Carti",
+        "ms": 256000,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/97/a8/1c97a832-ca79-32e3-6206-33dc8fcd117f/mzaf_18344576353587129297.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "Niagara Falls",
+        "artist": "The Weeknd",
+        "ms": 277275,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/2c/1b/082c1b46-9cb0-0b8e-ffb6-67de362d559a/mzaf_7630829486744513045.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "Take Me Back To LA",
+        "artist": "The Weeknd",
+        "ms": 253735,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/a3/5f/77a35f7f-b81e-87e0-1d98-9fe987a9da74/mzaf_2294823491095522908.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "Big Sleep",
+        "artist": "The Weeknd & Giorgio Moroder",
+        "ms": 225312,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/97/45/2097459a-667f-bf93-d68b-0b36f8bb791e/mzaf_12312843766798496177.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "Give Me Mercy",
+        "artist": "The Weeknd",
+        "ms": 216431,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/e5/78/1ee578b7-77b2-5d17-ad3a-256c4877f87f/mzaf_6559983556642426556.plus.aac.p.m4a"
+      },
+      {
+        "n": 18,
+        "name": "Drive",
+        "artist": "The Weeknd",
+        "ms": 188645,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/7b/f6/057bf6c5-8d6a-90c9-0637-b05033cae44e/mzaf_7029841231665634877.plus.aac.p.m4a"
+      },
+      {
+        "n": 19,
+        "name": "The Abyss",
+        "artist": "The Weeknd & Lana Del Rey",
+        "ms": 282873,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/60/94/fe609404-245c-c4c4-6614-f6df66728b73/mzaf_3828883311165693506.plus.aac.p.m4a"
+      },
+      {
+        "n": 20,
+        "name": "Red Terror",
+        "artist": "The Weeknd",
+        "ms": 231861,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/c5/f8/64c5f846-b03c-e184-7f51-e59d1ee6abef/mzaf_5801886982098259868.plus.aac.p.m4a"
+      },
+      {
+        "n": 21,
+        "name": "Without a Warning",
+        "artist": "The Weeknd",
+        "ms": 297525,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/b8/85/83b88536-0c47-c1d6-3844-53dd67bac69a/mzaf_334781670421870640.plus.aac.p.m4a"
+      },
+      {
+        "n": 22,
+        "name": "Hurry Up Tomorrow",
+        "artist": "The Weeknd",
+        "ms": 291487,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/81/47/73814745-d011-125e-7058-ceab6611d30b/mzaf_352041289695545775.plus.aac.p.m4a"
+      }
+    ]
+  },
+  {
+    "slug": "we-dont-trust-you",
+    "title": "WE DON'T TRUST YOU",
+    "artist": "Future & Metro Boomin",
+    "year": "2024",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/1000x1000bb.jpg",
+    "appleUrl": "https://music.apple.com/us/album/we-dont-trust-you/1737149923?uo=4",
+    "tracks": [
+      {
+        "n": 1,
+        "name": "We Don't Trust You",
+        "artist": "Future & Metro Boomin",
+        "ms": 226213,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/a9/a4/f5a9a4f2-ba92-f1db-75fe-51aa3957266c/mzaf_1113315199343212192.plus.aac.p.m4a"
+      },
+      {
+        "n": 2,
+        "name": "Young Metro",
+        "artist": "Future, Metro Boomin & The Weeknd",
+        "ms": 205347,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/c8/dd/bec8ddb8-8073-dd45-8ed4-a3f92ca85bdb/mzaf_3620593874269474689.plus.aac.p.m4a"
+      },
+      {
+        "n": 3,
+        "name": "Ice Attack",
+        "artist": "Future & Metro Boomin",
+        "ms": 199253,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/9d/d8/3f9dd80c-b206-1371-afee-04ed85be238e/mzaf_11945184208188733512.plus.aac.p.m4a"
+      },
+      {
+        "n": 4,
+        "name": "Type Shit",
+        "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
+        "ms": 228267,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/1f/23/191f23d6-403c-f9f9-6e7b-86dc8cfe2338/mzaf_7082402487210429358.plus.aac.p.m4a"
+      },
+      {
+        "n": 5,
+        "name": "Claustrophobic",
+        "artist": "Future & Metro Boomin",
+        "ms": 222053,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/4f/77/914f7726-2818-ff3c-b2bf-ddfd7f76d9ea/mzaf_10432405268175287774.plus.aac.p.m4a"
+      },
+      {
+        "n": 6,
+        "name": "Like That",
+        "artist": "Future, Metro Boomin & Kendrick Lamar",
+        "ms": 267707,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/43/77/0d43774e-5ceb-5ef0-d6ef-413aafedfda9/mzaf_3430860277257077664.plus.aac.p.m4a"
+      },
+      {
+        "n": 7,
+        "name": "Slimed In",
+        "artist": "Future & Metro Boomin",
+        "ms": 194907,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/11/7b/9f117bab-a95e-4239-e4e1-865a887b292b/mzaf_14693901327447571619.plus.aac.p.m4a"
+      },
+      {
+        "n": 8,
+        "name": "Magic Don Juan (Princess Diana)",
+        "artist": "Future & Metro Boomin",
+        "ms": 220733,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/20/75/66207541-c9c1-c92d-c56e-fd66788372df/mzaf_10452489908306484506.plus.aac.p.m4a"
+      },
+      {
+        "n": 9,
+        "name": "Cinderella",
+        "artist": "Future, Metro Boomin & Travis Scott",
+        "ms": 169840,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/52/d6/c052d634-30e9-1d3c-b16a-faba26967ddf/mzaf_5446614777736132207.plus.aac.p.m4a"
+      },
+      {
+        "n": 10,
+        "name": "Runnin Outta Time",
+        "artist": "Future & Metro Boomin",
+        "ms": 205480,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/74/b8/e774b87f-93d4-ad32-aeaa-997ef494869c/mzaf_2212798438174062241.plus.aac.p.m4a"
+      },
+      {
+        "n": 11,
+        "name": "Fried (She a Vibe)",
+        "artist": "Future & Metro Boomin",
+        "ms": 210173,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/1c/94/e61c94e6-71f8-4c59-8865-d937b46986b3/mzaf_6183039117449838683.plus.aac.p.m4a"
+      },
+      {
+        "n": 12,
+        "name": "Ain't No Love",
+        "artist": "Future & Metro Boomin",
+        "ms": 182840,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/0c/03/d10c03ff-6f7b-ce5e-bb9f-8c7e17987498/mzaf_5213478051752135705.plus.aac.p.m4a"
+      },
+      {
+        "n": 13,
+        "name": "Everyday Hustle",
+        "artist": "Future, Metro Boomin & Rick Ross",
+        "ms": 226947,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/6e/00/1e6e0006-f014-bde4-a7ea-fca84738ad2f/mzaf_9521920101183886270.plus.aac.p.m4a"
+      },
+      {
+        "n": 14,
+        "name": "GTA",
+        "artist": "Future & Metro Boomin",
+        "ms": 233027,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/3d/c2/8e3dc20f-de0b-5fd0-d76d-96f206ef88fd/mzaf_4166388125203271681.plus.aac.p.m4a"
+      },
+      {
+        "n": 15,
+        "name": "Seen It All",
+        "artist": "Future & Metro Boomin",
+        "ms": 179440,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/ae/28/56ae28d6-8b00-c573-a7d2-e5f9fdce0e6b/mzaf_6730044733559439035.plus.aac.p.m4a"
+      },
+      {
+        "n": 16,
+        "name": "WTFYM",
+        "artist": "Future & Metro Boomin",
+        "ms": 292600,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/d2/a7/72d2a761-4450-f9d4-3aed-7f1cd88b9de6/mzaf_4864653412891251448.plus.aac.p.m4a"
+      },
+      {
+        "n": 17,
+        "name": "Where My Twin @ (Bonus Track)",
+        "artist": "Future & Metro Boomin",
+        "ms": 122787,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/5e/2b/365e2b21-4666-2267-642e-2eefd452eca9/mzaf_18141004067594185364.plus.aac.p.m4a"
+      }
+    ]
+  }
+]

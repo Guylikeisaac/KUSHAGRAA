@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local audio files are never part of the site
+*.mp3
+
+# local-only source material
+*.mov
+assets/
