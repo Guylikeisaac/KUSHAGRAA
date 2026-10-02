@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { LOADER_DONE, motion } from "@/lib/motion";
-import { soundtrack, SOUNDTRACK_SRC } from "@/lib/soundtrack";
+import { soundtrack } from "@/lib/soundtrack";
 
 const SRC = "/img/loader-collage.jpg"; // 10 × 10 grid of album covers
 const N = 10;
@@ -133,7 +133,7 @@ export default function Loader() {
     try {
       sessionStorage.setItem("kc-entered", "1");
     } catch {}
-    if (withSound && SOUNDTRACK_SRC) soundtrack.play();
+    if (withSound) soundtrack.play();
     gsap.to(gateRef.current, {
       opacity: 0,
       scale: 1.04,
@@ -209,17 +209,15 @@ export default function Loader() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-bone transition-transform duration-500 group-hover:scale-110">
                   ▶
                 </span>
-                {SOUNDTRACK_SRC ? "Enter with sound" : "Enter"}
+                Enter with sound
               </button>
-              {SOUNDTRACK_SRC && (
-                <button onClick={() => enter(false)} className="label rounded-full px-4 py-2 text-bone/70 transition hover:text-molten">
-                  Enter silently
-                </button>
-              )}
+              <button onClick={() => enter(false)} className="label rounded-full px-4 py-2 text-bone/70 transition hover:text-molten">
+                Enter silently
+              </button>
             </div>
           </div>
 
-          <p className="label text-center text-bone/45">{SOUNDTRACK_SRC ? "🎧 Best with headphones" : "Portfolio 2026"}</p>
+          <p className="label text-center text-bone/45">🎧 Best with headphones</p>
         </div>
       )}
     </div>
