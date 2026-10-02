@@ -129,9 +129,9 @@ export default function Hero() {
         <span className="h-hud crosshair bottom-8 right-[var(--gutter)] hidden md:block" />
 
         <div className="h-hud label absolute left-[var(--gutter)] top-[7.6rem] hidden md:block">
-          Portfolio / 2026
+          Track 01
           <br />
-          <span className="text-bone/70">Index 001</span>
+          <span className="text-bone/70">Now playing: Kushagra</span>
         </div>
         <div className="h-hud label absolute right-[var(--gutter)] top-[7.6rem] hidden text-right md:block">
           {profile.coords}
