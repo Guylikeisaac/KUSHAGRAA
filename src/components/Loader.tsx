@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { LOADER_DONE, motion } from "@/lib/motion";
+import { soundtrack } from "@/lib/soundtrack";
 
 const SRC = "/img/loader-collage.jpg"; // 10 × 10 grid of album covers
 const N = 10;
@@ -18,6 +19,8 @@ export default function Loader() {
   const count = useRef<HTMLSpanElement>(null);
   const bar = useRef<HTMLDivElement>(null);
   const [gone, setGone] = useState(false);
+  const [choice, setChoice] = useState(false); // the Enter buttons are showing
+  const tlRef = useRef<gsap.core.Timeline | null>(null);
 
   useEffect(() => {
     const html = document.documentElement;
@@ -69,8 +72,9 @@ export default function Loader() {
         },
         0,
       )
-      // the collage, complete — a beat, then it breaks apart from the centre
-      .to(".ld-meta", { opacity: 0, y: -8, duration: 0.35, stagger: 0.04 }, "+=0.35")
+      // the collage is complete — wait here for the visitor to choose how to enter
+      .addPause("+=0.15", () => setChoice(true))
+      .to(".ld-meta", { opacity: 0, y: -8, duration: 0.35, stagger: 0.04 })
       .to(
         tiles,
         {
@@ -99,6 +103,7 @@ export default function Loader() {
       started = true;
       tl.play();
     };
+    tlRef.current = tl;
     const fonts = document.fonts?.ready ?? Promise.resolve();
     Promise.all([img.decode().catch(() => {}), fonts]).then(start);
     const fallback = setTimeout(start, 2500);
@@ -108,6 +113,19 @@ export default function Loader() {
       tl.kill();
     };
   }, []);
+
+  // the click itself unlocks audio, so the song can start the instant the site opens
+  const enter = (withSound: boolean) => {
+    if (!choice) return;
+    setChoice(false);
+    soundtrack.setMuted(!withSound);
+    try {
+      sessionStorage.setItem("kc-entered", "1");
+    } catch {}
+    if (withSound) soundtrack.play();
+    gsap.to(".ld-choice", { opacity: 0, y: 10, duration: 0.3, ease: "power2.in" });
+    tlRef.current?.play();
+  };
 
   if (gone) return null;
   return (
@@ -136,6 +154,28 @@ export default function Loader() {
         <div className="ld-meta label flex justify-between text-bone/80">
           <span>Kushagra Chaudhary</span>
           <span>Portfolio ©2026</span>
+        </div>
+
+        {/* how to enter — appears once the collage is complete */}
+        <div
+          className={`ld-choice absolute inset-x-0 top-1/2 flex -translate-y-1/2 flex-col items-center gap-4 px-6 transition-all duration-700 ease-[cubic-bezier(.2,.8,.2,1)] ${
+            choice ? "visible translate-y-[-50%] opacity-100" : "invisible translate-y-[-40%] opacity-0"
+          }`}
+        >
+          <button
+            onClick={() => enter(true)}
+            data-cursor="Play"
+            autoFocus
+            className="group flex items-center gap-4 rounded-full bg-bone py-2.5 pl-3 pr-8 text-[15px] font-semibold uppercase tracking-[0.14em] text-ink shadow-[0_20px_60px_-15px_rgba(255,59,47,0.6)] transition-colors hover:bg-molten hover:text-white md:text-[17px]"
+          >
+            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-bone transition-transform duration-500 group-hover:scale-110">
+              ▶
+            </span>
+            Enter with sound
+          </button>
+          <button onClick={() => enter(false)} className="label rounded-full bg-ink/60 px-4 py-2 text-bone/80 backdrop-blur-md transition hover:text-molten">
+            Enter silently
+          </button>
         </div>
 
         <div className="ld-meta">

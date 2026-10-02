@@ -1,14 +1,14 @@
 /**
- * The site's soundtrack: Travis Scott – "RHYNO", streamed from the official
- * Atlantic Records upload through YouTube's embedded player (the site never
- * hosts the audio). YouTube's terms require the player to stay visible
- * (≥ 200 × 200) while it plays, so it lives in a small "Now playing" card.
+ * The site's soundtrack: "the theme is art x no pole but it sounds heavenly"
+ * (edit by aln ngx, original audio by Don Toliver), streamed through YouTube's
+ * embedded player — the site never hosts the audio. YouTube's terms require
+ * the player to stay visible (≥ 200 × 200) while it plays.
  */
 export const SOUNDTRACK = {
-  videoId: "3Ev1PQEm7ns",
-  title: "RHYNO",
-  artist: "Travis Scott",
-  credit: "Atlantic Records · YouTube",
+  videoId: "Vc42VyrwoLY",
+  title: "ART × NO POLE",
+  artist: "Don Toliver · edit by aln ngx",
+  credit: "YouTube · aln ngx",
 };
 
 const VOLUME = 45; // YouTube volume is 0–100

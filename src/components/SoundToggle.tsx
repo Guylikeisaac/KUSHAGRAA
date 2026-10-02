@@ -23,7 +23,7 @@ export default function SoundToggle() {
       onClick={toggle}
       data-no-soundtrack
       aria-pressed={on}
-      aria-label={on ? "Stop RHYNO by Travis Scott" : "Play RHYNO by Travis Scott"}
+      aria-label={on ? "Stop the music" : "Play the music"}
       className="flex h-10 items-center gap-2 rounded-full px-3 ring-1 ring-white/15 transition hover:ring-molten/50"
     >
       <span className="flex h-3.5 items-end gap-[2px]" aria-hidden>

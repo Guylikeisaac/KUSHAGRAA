@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { soundtrack, SOUNDTRACK } from "@/lib/soundtrack";
-import { motion, onLoaderDone } from "@/lib/motion";
+import { motion } from "@/lib/motion";
 
 /**
  * Owns the "Now playing" card (which holds the visible YouTube player) and the
@@ -18,14 +18,10 @@ export default function Soundtrack() {
 
   useEffect(() => soundtrack.subscribe(setState), []);
 
-  // load the player quietly once the intro has finished
-  useEffect(
-    () =>
-      onLoaderDone(() => {
-        setTimeout(() => host.current && void soundtrack.mount(host.current), 800);
-      }),
-    [],
-  );
+  // load the player right away, so it's ready the moment "Enter with sound" is clicked
+  useEffect(() => {
+    if (host.current) void soundtrack.mount(host.current);
+  }, []);
 
   useEffect(() => {
     if (pathname !== "/") {
@@ -36,6 +32,11 @@ export default function Soundtrack() {
     if (motion.reduced || !desktop) return;
     if (started.current) {
       soundtrack.play();
+      return;
+    }
+    // the intro's "Enter" choice already decided whether music plays
+    if (document.documentElement.dataset.loaded === "true" && sessionStorage.getItem("kc-entered") === "1") {
+      started.current = true;
       return;
     }
     const begin = (e: Event) => {
@@ -82,11 +83,11 @@ export default function Soundtrack() {
           </span>
           <div>
             <p className="label text-[9.5px]">Now playing</p>
-            <p className="font-display chrome mt-1 text-[38px] leading-[0.85]">{SOUNDTRACK.title}</p>
+            <p className="font-display chrome mt-1 text-[30px] leading-[0.88]">{SOUNDTRACK.title}</p>
             <p className="mt-1 text-[12px] text-bone/60">{SOUNDTRACK.artist}</p>
           </div>
           <div className="flex items-center justify-between">
-            <span className="label text-[9px]">Atlantic · YT</span>
+            <span className="label text-[9px]">{SOUNDTRACK.credit}</span>
             <button
               data-no-soundtrack
               onClick={() => {
