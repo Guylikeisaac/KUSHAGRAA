@@ -18,7 +18,7 @@ export default function Services() {
       />
       <div className="relative z-[4] mx-auto max-w-[1500px]">
         <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 md:mb-14">
-          <span className="label">(03) — What I do</span>
+          <span className="label">(04) — What I do</span>
           <span className="label hidden sm:block">For brands, founders & teams</span>
         </div>
 

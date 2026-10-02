@@ -439,7 +439,7 @@ export default function Crate() {
 
       <div className="relative z-[4] mx-auto max-w-[1500px]">
         <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 md:mb-14">
-          <span className="label">(05) — On rotation</span>
+          <span className="label">(03) — On rotation</span>
           <span className="label hidden sm:block">30-sec previews · Apple Music</span>
         </div>
         <h2 id="crate-h" className="font-display max-w-[1200px] text-[15vw] md:text-[8.6vw]">

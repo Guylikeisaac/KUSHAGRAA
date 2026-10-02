@@ -52,7 +52,7 @@ export default function Process() {
           <div className="mb-10 px-[var(--gutter)] md:mb-14">
             <div className="mx-auto flex max-w-[1500px] items-end justify-between border-b border-white/10 pb-4">
               <div>
-                <span className="label">(04) — Process</span>
+                <span className="label">(05) — Process</span>
                 <h2 id="process-h" className="font-display chrome mt-4 text-[15vw] md:text-[6.5vw]">
                   How we&apos;ll work
                 </h2>

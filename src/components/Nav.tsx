@@ -9,11 +9,11 @@ import { profile } from "@/lib/data";
 import SoundToggle from "./SoundToggle";
 
 const links = [
-  { id: "work", label: "Work" },
   { id: "about", label: "About" },
+  { id: "work", label: "Work" },
+  { id: "crate", label: "Music" },
   { id: "services", label: "Services" },
   { id: "process", label: "Process" },
-  { id: "crate", label: "Music" },
   { id: "contact", label: "Contact" },
 ];
 

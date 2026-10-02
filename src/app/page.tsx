@@ -14,9 +14,9 @@ export default function Home() {
       <Marquee />
       <About />
       <Projects />
+      <Crate />
       <Services />
       <Process />
-      <Crate />
       <Contact />
     </>
   );

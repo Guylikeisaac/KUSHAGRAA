@@ -25,10 +25,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kushagra Chaudhary — Creative Developer & Product Builder",
     description: "High-quality websites and digital products for ambitious businesses worldwide.",
-    images: ["/img/projects/evalis-cd-v2.jpg"],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Kushagra Chaudhary — Creative Developer & Product Builder" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: ["/og.jpg"] },
 };
 
 export const viewport: Viewport = {
