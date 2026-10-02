@@ -198,7 +198,6 @@ export default function Loader() {
           </div>
 
           <div className="flex flex-col items-center gap-8 text-center">
-            <p className="font-display chrome text-[22vw] leading-[0.82] md:text-[13vw]">Kushagra</p>
             <div className="flex flex-col items-center gap-3">
               <button
                 onClick={() => enter(true)}
