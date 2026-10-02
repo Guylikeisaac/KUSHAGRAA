@@ -61,12 +61,16 @@ export default function Soundtrack() {
     <aside
       aria-label="Now playing"
       aria-hidden={!shown}
-      className={`glass fixed bottom-4 right-4 z-[70] w-[216px] rounded-[18px] p-2 transition-[opacity,transform] duration-700 ease-[cubic-bezier(.2,.8,.2,1)] md:bottom-auto md:right-[var(--gutter)] md:top-[92px] md:w-[372px] ${
-        shown ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-6 opacity-0 md:-translate-y-6"
+      className={`fixed bottom-4 left-4 z-[70] transition-[opacity,transform] duration-700 ease-[cubic-bezier(.2,.8,.2,1)] md:bottom-8 md:left-[var(--gutter)] ${
+        shown ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-8 opacity-0"
       }`}
     >
-      <div className="flex items-center justify-between gap-2 px-1.5 pb-2 pt-1">
-        <div className="flex min-w-0 items-center gap-2.5">
+      <div className="group flex items-center gap-3 rounded-[16px] border border-white/10 bg-ink/70 p-1.5 pr-3 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.9)] backdrop-blur-xl">
+        {/* YouTube's player must stay visible (≥ 200 × 200) while it plays */}
+        <div className="h-[200px] w-[200px] shrink-0 overflow-hidden rounded-[11px] bg-black">
+          <div ref={host} />
+        </div>
+        <div className="flex h-[200px] w-[130px] flex-col justify-between py-2">
           <span className="flex h-3 items-end gap-[2px]" aria-hidden>
             {[0.9, 0.5, 1, 0.65].map((d, i) => (
               <span
@@ -76,28 +80,27 @@ export default function Soundtrack() {
               />
             ))}
           </span>
-          <p className="min-w-0 truncate text-[12.5px] text-bone">
-            <span className="font-semibold">{SOUNDTRACK.title}</span>
-            <span className="text-bone/55"> — {SOUNDTRACK.artist}</span>
-          </p>
+          <div>
+            <p className="label text-[9.5px]">Now playing</p>
+            <p className="font-display chrome mt-1 text-[38px] leading-[0.85]">{SOUNDTRACK.title}</p>
+            <p className="mt-1 text-[12px] text-bone/60">{SOUNDTRACK.artist}</p>
+          </div>
+          <div className="flex items-center justify-between">
+            <span className="label text-[9px]">Atlantic · YT</span>
+            <button
+              data-no-soundtrack
+              onClick={() => {
+                soundtrack.setMuted(true);
+                soundtrack.stop(0.4);
+              }}
+              aria-label="Stop music"
+              className="flex h-7 w-7 items-center justify-center rounded-full text-[11px] text-bone/60 ring-1 ring-white/10 transition hover:text-molten hover:ring-molten/40"
+            >
+              ✕
+            </button>
+          </div>
         </div>
-        <button
-          data-no-soundtrack
-          onClick={() => {
-            soundtrack.setMuted(true);
-            soundtrack.stop(0.4);
-          }}
-          aria-label="Stop music"
-          className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-bone/60 ring-1 ring-white/10 transition hover:text-molten hover:ring-molten/40"
-        >
-          ✕
-        </button>
       </div>
-      {/* YouTube's player must stay visible (≥ 200 × 200) while it plays */}
-      <div className="h-[200px] w-[200px] overflow-hidden rounded-[12px] bg-black md:w-[356px]">
-        <div ref={host} />
-      </div>
-      <p className="label px-1.5 pb-0.5 pt-2 text-[9.5px]">{SOUNDTRACK.credit}</p>
     </aside>
   );
 }

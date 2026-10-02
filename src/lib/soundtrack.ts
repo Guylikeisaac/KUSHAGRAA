@@ -99,7 +99,11 @@ export const soundtrack = {
       height: "100%",
       playerVars: {
         autoplay: 0,
-        controls: 1,
+        controls: 0,
+        cc_load_policy: 0,
+        iv_load_policy: 3,
+        disablekb: 1,
+        fs: 0,
         loop: 1,
         playlist: SOUNDTRACK.videoId, // required for loop to work
         rel: 0,
