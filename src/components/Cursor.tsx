@@ -70,7 +70,7 @@ export default function Cursor() {
   }, []);
 
   return (
-    <div className="cursor-root pointer-events-none fixed inset-0 z-[100]" aria-hidden>
+    <div className="cursor-root pointer-events-none fixed inset-0 z-[1000]" aria-hidden>
       <div
         ref={ring}
         className="absolute opacity-0 -left-5 -top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/55"
