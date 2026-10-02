@@ -1,126 +1,54 @@
 /**
- * The site's soundtrack: "the theme is art x no pole but it sounds heavenly"
- * (edit by aln ngx, original audio by Don Toliver), streamed through YouTube's
- * embedded player — the site never hosts the audio. YouTube's terms require
- * the player to stay visible (≥ 200 × 200) while it plays.
+ * The site's soundtrack — a royalty-free track hosted with the site, played by
+ * an invisible <audio> element (only the nav's sound bars show it's on).
+ * Set SOUNDTRACK_SRC to the file in /public/audio once it's added; while it's
+ * null there's no music and the intro shows a single "Enter" button.
  */
-export const SOUNDTRACK = {
-  videoId: "Vc42VyrwoLY",
-  title: "ART × NO POLE",
-  artist: "Don Toliver · edit by aln ngx",
-  credit: "YouTube · aln ngx",
-};
+export const SOUNDTRACK_SRC: string | null = null;
 
-const VOLUME = 45; // YouTube volume is 0–100
+const VOLUME = 0.45;
 const MUTE_KEY = "kc-sound-muted";
-
-type YTPlayer = {
-  playVideo(): void;
-  pauseVideo(): void;
-  setVolume(v: number): void;
-  getVolume(): number;
-};
-type YTNamespace = {
-  Player: new (
-    el: HTMLElement,
-    opts: {
-      videoId: string;
-      width: string;
-      height: string;
-      playerVars: Record<string, string | number>;
-      events: { onReady: () => void; onStateChange: (e: { data: number }) => void };
-    },
-  ) => YTPlayer;
-};
-declare global {
-  interface Window {
-    YT?: YTNamespace;
-    onYouTubeIframeAPIReady?: () => void;
-  }
-}
 
 type Listener = (state: { playing: boolean; wanted: boolean }) => void;
 
-let player: YTPlayer | null = null;
-let ready = false;
-let playing = false;
-let wanted = false; // a play was requested (card shows while loading too)
+let el: HTMLAudioElement | null = null;
 let fadeRaf = 0;
+let wanted = false;
 const listeners = new Set<Listener>();
-const emit = () => listeners.forEach((l) => l({ playing, wanted }));
+const playing = () => !!el && !el.paused;
+const emit = () => listeners.forEach((l) => l({ playing: playing(), wanted }));
 
-function loadApi(): Promise<YTNamespace> {
-  return new Promise((resolve) => {
-    if (window.YT?.Player) return resolve(window.YT);
-    const prev = window.onYouTubeIframeAPIReady;
-    window.onYouTubeIframeAPIReady = () => {
-      prev?.();
-      resolve(window.YT!);
-    };
-    if (!document.querySelector('script[src="https://www.youtube.com/iframe_api"]')) {
-      const s = document.createElement("script");
-      s.src = "https://www.youtube.com/iframe_api";
-      s.async = true;
-      document.head.appendChild(s);
-    }
-  });
+function audio() {
+  if (!el && typeof window !== "undefined" && SOUNDTRACK_SRC) {
+    el = new Audio(SOUNDTRACK_SRC);
+    el.loop = true;
+    el.preload = "auto";
+    el.volume = 0;
+    el.addEventListener("play", emit);
+    el.addEventListener("pause", emit);
+  }
+  return el;
 }
 
 function fadeTo(target: number, seconds: number, done?: () => void) {
-  if (!player) return;
+  const a = audio();
+  if (!a) return;
   cancelAnimationFrame(fadeRaf);
-  const p = player;
-  const from = p.getVolume?.() ?? 0;
+  const from = a.volume;
   const start = performance.now();
   const step = (now: number) => {
     const t = Math.min(1, (now - start) / (seconds * 1000));
-    p.setVolume(Math.round(from + (target - from) * t));
+    a.volume = from + (target - from) * t;
     if (t < 1) fadeRaf = requestAnimationFrame(step);
     else done?.();
   };
   fadeRaf = requestAnimationFrame(step);
 }
 
-function startPlayback() {
-  if (!player) return;
-  player.setVolume(0);
-  player.playVideo();
-  fadeTo(VOLUME, 1.6);
-}
-
 export const soundtrack = {
-  /** create the (visible) YouTube player inside `el` — call once */
-  async mount(el: HTMLElement) {
-    if (player) return;
-    const YT = await loadApi();
-    player = new YT.Player(el, {
-      videoId: SOUNDTRACK.videoId,
-      width: "100%",
-      height: "100%",
-      playerVars: {
-        autoplay: 0,
-        controls: 0,
-        cc_load_policy: 0,
-        iv_load_policy: 3,
-        disablekb: 1,
-        fs: 0,
-        loop: 1,
-        playlist: SOUNDTRACK.videoId, // required for loop to work
-        rel: 0,
-        playsinline: 1,
-        modestbranding: 1,
-      },
-      events: {
-        onReady: () => {
-          ready = true;
-          if (wanted) startPlayback();
-        },
-        onStateChange: (e) => {
-          playing = e.data === 1; // YT.PlayerState.PLAYING
-          emit();
-        },
-      },
-    });
+  /** start buffering the file early (no sound) */
+  preload() {
+    audio();
   },
   isMuted() {
     try {
@@ -134,25 +62,32 @@ export const soundtrack = {
       localStorage.setItem(MUTE_KEY, m ? "1" : "0");
     } catch {}
   },
-  isPlaying: () => playing,
+  isPlaying: playing,
   /** fade in — call from (or after) a user gesture */
   play() {
-    if (this.isMuted()) return;
+    const a = audio();
+    if (!a || this.isMuted()) return;
     wanted = true;
     emit();
-    if (ready) startPlayback();
+    void a
+      .play()
+      .then(() => fadeTo(VOLUME, 1.6))
+      .catch(() => {
+        wanted = false;
+        emit();
+      });
   },
-  /** fade out, pause, and let the card slide away */
+  /** fade out and pause */
   stop(seconds = 0.8) {
-    if (!wanted && !playing) return;
+    const a = audio();
     wanted = false;
     emit();
-    if (!player || !ready) return;
-    fadeTo(0, seconds, () => player?.pauseVideo());
+    if (!a || a.paused) return;
+    fadeTo(0, seconds, () => a.pause());
   },
   subscribe(l: Listener) {
     listeners.add(l);
-    l({ playing, wanted });
+    l({ playing: playing(), wanted });
     return () => {
       listeners.delete(l);
     };

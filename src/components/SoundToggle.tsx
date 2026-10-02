@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { soundtrack } from "@/lib/soundtrack";
+import { soundtrack, SOUNDTRACK_SRC } from "@/lib/soundtrack";
 
 /** Nav control: animated bars while the soundtrack plays; click to start / stop it. */
 export default function SoundToggle() {
   const [on, setOn] = useState(false);
   useEffect(() => soundtrack.subscribe(({ playing, wanted }) => setOn(playing || wanted)), []);
+
+  if (!SOUNDTRACK_SRC) return null;
 
   const toggle = () => {
     if (on) {
